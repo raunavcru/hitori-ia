@@ -8,8 +8,8 @@ Para la realización de los experimentos del documento se debe introducir la matr
 y el tipo de búsqueda en un variable llamada "busqueda", que es una cadena de texto. El tipo de búsqueda del documento
 es la búqueda en profundidad, por lo que se le debe pasarle la variables con el valor 'bProfundidad'.
 
-Para leer una matriz desde un fichero txt, la matriz debe estar en en una línea y seguir el siguiente patrón: número de
+Para leer una matriz desde un fichero txt, la matriz debe estar en una línea y seguir el siguiente patrón: número de
 filas, una coma, número de columnas, una coma y la matriz. Un ejemplo: 
 3,3,[[1,2,1],[2,2,1],[3,1,2]]
-También podemos poner varias matrices en un mismo fichero y elegir una de ellas mediante la variable "linea" que se le pasa como variable
+También podemos poner varias matrices en un mismo fichero y elegir una de ellas mediante la variable "linea" que se le pasa como parámetro
 al método "leer_fichero()" junto al nombre del fichero (la primera línea será linea = 1).
